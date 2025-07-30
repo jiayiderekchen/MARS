@@ -1,5 +1,5 @@
 """
-MARS: Multi-Agent Reinforcement Strategy
+MARS
 Main training and evaluation pipeline for the multi-agent trading system.
 """
 import torch
