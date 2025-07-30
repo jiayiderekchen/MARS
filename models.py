@@ -1,5 +1,5 @@
 """
-MARS: Multi-Agent Reinforcement Strategy
+MARS
 Neural network architectures for trading agents and meta-controller.
 """
 import torch
