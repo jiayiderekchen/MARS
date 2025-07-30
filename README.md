@@ -6,14 +6,15 @@ We introduce the source code of our paper "[MARS: A Meta-Adaptive Reinforcement 
 
 ![Preview](images/MARS_framework_2.drawio.png)
 
+The MARS framework architecture. The system processes the Market State ($s_t$) through two parallel components. The Meta-Adaptive Controller (MAC) produces agent weights ($w_t$), while the Heterogeneous Agent Ensemble (HAE) generates proposed actions ($a_t^i$). These outputs are aggregated and passed through a Risk Management Overlay to produce the final executed action ($A'_t$).
+
 ## 🏗️ Key Features
 
-- ✅ **Multi-Agent Coordination**: Dynamic agent weighting based on market conditions
-- ✅ **Safety-First Design**: Built-in safety critics prevent excessive risk-taking
-- ✅ **Adaptive Strategy**: Meta-controller learns optimal agent combinations
-- ✅ **Risk Management**: Configurable position limits and safety thresholds
-- ✅ **Technical Indicators**: Integration of RSI, MACD, CCI, ADX indicators
-- ✅ **Multiple Markets**: Support for DJI, HSI, and custom datasets
+- Hierarchical Two-Tiered Architecture: Implements a high-level Meta-Adaptive Controller (MAC) that learns to dynamically orchestrate a low-level ensemble of trading agents, allowing the system to adapt its strategy to different market regimes (bull vs. bear).
+- Heterogeneous Agent Ensemble (HAE): Moves beyond a single-agent paradigm by employing an ensemble of agents, each with a unique and explicit risk profile (e.g., conservative, aggressive). This leverages behavioral diversity for more robust decision-making.
+- Explicit Risk Management with Safety-Critic: Each agent is equipped with a dedicated Safety-Critic network. This allows risk to be proactively managed as part of the learning objective, rather than being a reactive penalty, leading to superior capital preservation.
+- State-of-the-Art Performance: Achieves superior risk-adjusted returns compared to established DRL baselines. Demonstrates exceptional performance in minimizing drawdowns and volatility, particularly during bear markets.
+- Modular and Extensible: The framework is designed with modular components, allowing for easy experimentation with different numbers of agents, risk profiles, and meta-controller strategies.
 
 
 ## 🛠️ Installation
