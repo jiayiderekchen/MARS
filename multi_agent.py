@@ -1,5 +1,5 @@
 """
-MARS: Multi-Agent Reinforcement Strategy
+MARS
 Multi-agent system implementation with safety critics for financial trading.
 """
 import torch
