@@ -1,5 +1,5 @@
 """
-MARS: Multi-Agent Reinforcement Strategy
+MARS
 Safety-critic agent implementation for risk-aware trading decisions.
 """
 import torch
