@@ -4,6 +4,8 @@
 
 We introduce the source code of our paper "[MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](https://)". 
 
+![framework](https://github.com/user-attachments/assets/d8b4a272-9853-4668-8b46-fdcadd4d3af6)
+
 ## 🏗️ Key Features
 
 - ✅ **Multi-Agent Coordination**: Dynamic agent weighting based on market conditions
@@ -54,10 +56,6 @@ python main.py --mode test --model_path result/best_models/
 ```bash
 python main.py --mode both
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📖 Citation
 
