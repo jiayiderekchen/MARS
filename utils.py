@@ -1,5 +1,5 @@
 """
-MARS: Multi-Agent Reinforcement Strategy
+MARS
 Utility functions for data processing, feature engineering, and risk management.
 """
 import pandas as pd
