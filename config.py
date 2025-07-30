@@ -1,5 +1,5 @@
 """
-Configuration parameters for the Multi-Agent Reinforcement Strategy (MARS).
+Configuration parameters for the MARS.
 """
 
 # General parameters
