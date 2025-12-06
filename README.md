@@ -63,10 +63,10 @@ python main.py --mode both
 If you use MARS in your research, please cite:
 
 ```bibtex
-@article{mars2024,
-  title={MARS: Multi-Agent Reinforcement Strategy for Algorithmic Trading},
-  author={Your Name},
-  journal={Journal of Financial Technology},
-  year={2024}
+@article{chen2025mars,
+  title={MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management},
+  author={Chen, Jiayi and Li, Jing and Wang, Guiling},
+  journal={arXiv preprint arXiv:2508.01173},
+  year={2025}
 }
 ```
