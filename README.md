@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-We introduce the source code of our paper "[MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](https://)". 
+We introduce the source code of our paper "[MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](https://arxiv.org/pdf/2508.01173?)". 
 
 ![Preview](images/MARS_framework_2.drawio.png)
 
