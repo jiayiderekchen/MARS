@@ -4,7 +4,7 @@
 
 We introduce the source code of our paper "[MARS: A Meta-Adaptive Reinforcement Learning Framework for Risk-Aware Multi-Agent Portfolio Management](https://arxiv.org/pdf/2508.01173?)". 
 
-![Preview](images/MARS_framework_2.drawio.png)
+![Preview](images/MARS_framework_5.5.drawio.png)
 
 The MARS framework architecture. The system processes the Market State ($s_t$) through two parallel components. The Meta-Adaptive Controller (MAC) produces agent weights ($w_t$), while the Heterogeneous Agent Ensemble (HAE) generates proposed actions ($a_t^i$). These outputs are aggregated and passed through a Risk Management Overlay to produce the final executed action ($A'_t$).
 
